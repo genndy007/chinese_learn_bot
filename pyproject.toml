@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "chinese-learn-bot"
+version = "0.0.1"
+description = "Telegram Bot for Chinese learning"
+authors = ["genndy007 <kochevgenazp@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "chinese_learn_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiogram = "^2.23.1"
+uvloop = "^0.17.0"
+loguru = "^0.6.0"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
