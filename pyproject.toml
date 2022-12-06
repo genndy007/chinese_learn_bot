@@ -12,7 +12,7 @@ python = "^3.10"
 uvloop = "^0.17.0"
 loguru = "^0.6.0"
 python-dotenv = "^0.21.0"
-aiogram = "3.0.0b3"
+aiogram = "2.23.1"
 
 
 [build-system]
